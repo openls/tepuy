@@ -36,4 +36,4 @@ npm run dev
 ## Contributing
 Contributions are welcome! Please read our contributing guidelines before submitting a pull request.
 ### License
-This project is licensed under the [GNU/gpl v2] License.
+This project is licensed under the [GNU/gpl-v3](https://www.gnu.org/licenses/gpl-3.0.html#license-text) License.
