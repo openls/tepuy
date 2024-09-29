@@ -1,4 +1,4 @@
-# Teuy
+# Tepuy
 Tepuy: A Highly Scalable and Reactive Frontend Project
 Overview
 Tepuy is a frontend project built from the ground up using TypeScript. It aims to provide a robust, scalable, and maintainable foundation for developing dynamic and interactive user interfaces.
