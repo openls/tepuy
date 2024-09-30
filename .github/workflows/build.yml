@@ -22,7 +22,7 @@ on:
         - docker/*
 
 jobs:
-    cache-and-install:
+    install-and-build:
       runs-on: ubuntu-latest
   
       steps:
@@ -32,7 +32,7 @@ jobs:
         - uses: pnpm/action-setup@v4
           name: Install pnpm
           with:
-            version: 9.5.0
+            version: 9.11.0
             run_install: false
   
         - name: Install Node.js
