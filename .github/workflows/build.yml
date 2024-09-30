@@ -1,6 +1,25 @@
 on:
     push:
-        branches: ["main"]
+      branches:
+        - '*'         # matches every branch that doesn't contain a '/'
+        - '*/*'       # matches every branch containing a single '/'
+        - '**'        # matches every branch
+      paths-ignore:
+        - README.md
+        - README.es.md
+    pull_request:
+      branches:
+        - main
+        - master
+        - develop
+        - experimental
+        - test/**
+        - bugfix/**
+        - feature/**
+      paths-ignore:
+        - README.md
+        - README.es.md
+        - docker/*
 
 jobs:
     cache-and-install:
